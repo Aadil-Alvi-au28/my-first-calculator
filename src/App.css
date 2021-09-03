@@ -1,5 +1,31 @@
+.calculator   {
+  max-width: 400px;
+  margin: 0 auto;
+  border: 2px solid #111;
+  border-radius: 5px;
+}
+.input   {
+  /* reset basic form styles */
+  background: none;
+  border: none;
+  box-shadow: none;
+  outline: none;
+
+  padding: 10px;
+  width: 100%;
+  border-bottom: 2px solid #111;
+  color: #333;
+  text-align: right;
+  font-size: 40px;
+  border-radius: 0;
+}
 .App {
   text-align: center;
+}
+
+.item {
+  min-height: 200px;
+  background-color: #eee;
 }
 
 .App-logo {
